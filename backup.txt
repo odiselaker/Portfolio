@@ -1,0 +1,151 @@
+
+@media(max-width: 2830px) {
+    .textarea {
+        left: 50vh;
+    }
+
+    .textarea2 {
+        left: 48vh;
+    }
+
+    .textarea3 {
+        left: -2vh;
+    }
+
+    .socialanim {
+        left: 39%;
+    }
+}
+
+@media(max-width: 2650px) {
+    .textarea {
+        left: 45vh;
+    }
+
+    .textarea2 {
+        left: 43vh;
+    }
+
+    .textarea3 {
+        left: -7vh;
+    }
+
+    .socialanim {
+        left: 38%;
+    }
+}
+
+@media(max-width: 2400px) {
+    .textarea {
+        max-width: 550px;
+        left: 30vh;
+    }
+
+    .textarea2 {
+        max-width: 550px;
+        left: 28vh;
+    }
+
+    .textarea3 {
+        max-width: 190px;
+        height: 740px;
+        left: -22vh;
+    }
+
+    .text2 {
+        font-size: 58px;
+    }
+
+    .text3 {
+        font-size: 24px;
+    }
+
+    .socialanim {
+        left: 35%;
+    }
+
+    .linkedln {
+        margin-top: 20%;
+    }
+
+    .animationheader {
+        margin-left: 50vw;
+        max-width: 70vh;
+    }
+
+    .projectanim {
+        max-width: 40vh;
+        margin-left: -68vw;
+    }
+
+    .hirobot {
+        margin-top: -1650px;
+    }
+}
+
+@media(max-width: 560px) {
+    .hirobot {
+        margin-top: -1100px;
+        max-width: 200px;
+        right: 5vh;
+    }
+
+    .textarea {
+        max-width: 250px;
+        left: 7vh;
+    }
+
+    .textarea2 {
+        max-width: 250px;
+        left: 5vh;
+    }
+
+    .textarea3 {
+        max-width: 190px;
+        left: -22vh;
+    }
+
+    
+    .text2 {
+        font-size: 15px;
+    }
+
+    .text3 {
+        font-size: 24px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Textin2.innerHTML = 'Hi! I’m Odisseas Papanidis, a Full-Stack Developer passionate about building modern and interactive websites.';
+
+
+
+
+.textarea3:hover {
+    transform:
+        rotate(45deg)
+        translate(-5vh, 24vh);
+}
+
+
+
