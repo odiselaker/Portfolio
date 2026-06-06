@@ -1074,48 +1074,33 @@ body, html {
     height: 1350px;
     width: 100%;
     box-shadow: 0 10px 20px rgba(182, 182, 182, 0.582);
-    position: relative;
 }
 
 .image2 {
-    height: 1350px;
     width: 100%;
     object-fit: cover;
-    display: block;
     background-image: url('/assets/images/projectsIMG.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .image-inside {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
     object-fit: cover;
     width: 100%;
     margin: 60px;
-    height: 100%;
     max-height: 90%;
     z-index: 2;
-    border-radius: 10px;
     opacity: 0.9;
     background:
       linear-gradient(
         135deg,
         rgb(22, 0, 0),
         #000333
-);
+    );
 }
 
 .socialContainer {
-    height: 900px;
     width: 100%;
     background:
     linear-gradient(
@@ -1126,24 +1111,18 @@ body, html {
 }
 
 .textarea {
-    position: absolute;
     background-color: red;
     height: 700px;
     width: 500px;
-    top: 30%;
     left: 25vw;
-    border-radius: 10px;
 }
 
 .textarea2 {
-    position: absolute;
     background-color: rgb(255, 255, 255);
-    height: 700px;
     width: 500px;
     top: 29%;
     left: 24vw;
     z-index: 3;
-    border-radius: 10px;
 }
 
 .textarea2 p {
@@ -1152,16 +1131,13 @@ body, html {
 }
 
 .textarea3 {
-    position: absolute;
     background-color: blue;
     color: white;
-    height: 700px;
     width: 500px;
     top: 29%;
     left: 24vw;
     z-index: 2;
     transition: transform 0.3s ease;
-    border-radius: 10px;
 }
 
 .textarea3 p {
@@ -1178,8 +1154,6 @@ body, html {
 }
 
 .animationheader {
-    position: absolute;
-    height: auto;
     width: 100%;
     max-width: 1000px;
     margin-left: 60vw;
@@ -1188,12 +1162,9 @@ body, html {
 
 .projectstext {
     color: white;
-    font-size: 40px;
-    text-align: center;
 }
 
 .hirobot {
-    position: absolute;
     left: -4%;
     top: -40%;
     width: 350px;
@@ -1202,17 +1173,12 @@ body, html {
 
 .projects {
     color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 30px;
     height: 150px;
     width: 200px;
-    font-size: 25px;
     text-decoration: none;
     background-color: rgb(77, 77, 77);
     border: 3px solid rgb(75, 183, 255);
-    border-radius: 10px;
     transition: transform 0.3s ease;
 }
 
@@ -1224,8 +1190,6 @@ body, html {
 
 
 .projectanim {
-    position: absolute;
-    display: flex;
     width: 100%;
     max-width: 40vh;
     margin-left: -70vw;
@@ -1233,12 +1197,7 @@ body, html {
 }
 
 .socialanim {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 150px;
-    height: auto;
     left: 40%;
     width: 700px;
 }

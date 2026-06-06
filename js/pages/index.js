@@ -4,7 +4,12 @@ export function HomePage() {
     const Container1 = document.createElement('div'); // this is background image container1
 
     Container1.classList.add(
-        'image2'
+        'image2',
+        'h-1350px',
+        'd-block',
+        'd-flex',
+        'justify-center',
+        'items-center'
     );
 
     const ColorIncontainer = document.createElement('div') // this is the projects image in container1
@@ -12,7 +17,15 @@ export function HomePage() {
     ColorIncontainer.src = '/assets/images/projectinsideIMG.png';
 
     ColorIncontainer.classList.add(
-        'image-inside'
+        'image-inside',
+        'pos-relative',
+        'd-flex',
+        'justify-center',
+        'items-center',
+        'text-center',
+        'h-100',
+        'd-radius-10',
+        'flex-column'
     );
 
     const projectstext = document.createElement('p'); // this is the text in propject container
@@ -21,13 +34,17 @@ export function HomePage() {
 
     projectstext.classList.add(
         'projectstext',
+        'text-center',
+        'f-size-40',
         'orbitron-uniquifier'
     );
 
     const Projectanimation = document.createElement('dotlottie-player'); // this is the animation on projects
 
     Projectanimation.classList.add(
-        'projectanim'
+        'projectanim',
+        'pos-absolute',
+        'd-flex'
     );
 
     Projectanimation.setAttribute(
@@ -57,11 +74,21 @@ export function HomePage() {
 
     project1.classList.add(
         'projects',
+        'd-flex',
+        'justify-center',
+        'items-center',
+        'f-size-25',
+        'bd-radius-10',
         'orbitron-uniquifier'
     );
 
     project2.classList.add(
         'projects',
+        'd-flex',
+        'justify-center',
+        'items-center',
+        'f-size-25',
+        'bd-radius-10',
         'orbitron-uniquifier'
     );
 
@@ -71,12 +98,18 @@ export function HomePage() {
 
     Container2.classList.add(
         'socialContainer',
+        'h-900px'
     );
 
     const socialanim = document.createElement('dotlottie-player'); // this is the social video animation
 
     socialanim.classList.add(
-        'socialanim'
+        'socialanim',
+        'pos-absolute',
+        'd-flex',
+        'justify-center',
+        'items-center',
+        'h-auto'
     );
 
     socialanim.setAttribute(

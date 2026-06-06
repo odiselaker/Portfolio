@@ -13,14 +13,20 @@ export function initHeader() {
     const Textarea = document.createElement('div'); // this is the text area (red)
 
     Textarea.classList.add(
-        'textarea'
+        'textarea',
+        'pos-absolute',
+        'bd-radius-10',
+        'top-30'
     );
 
 
     const Textarea2 = document.createElement('div'); // this is the text area (white)
 
     Textarea2.classList.add(
-        'textarea2'
+        'textarea2',
+        'pos-absolute',
+        'bd-radius-10',
+        'h-700px'
     );
 
     const Textin2 = document.createElement('p'); // this is the text inside the Textarea2
@@ -28,7 +34,6 @@ export function initHeader() {
     Textin2.innerHTML = 'Hi! I’m Odisseas Papanidis, a Full-Stack Developer passionate about building modern and interactive websites.';
 
     Textin2.classList.add(
-        'text2',
         'playwrite-gb-j-uniquifier'
     );
 
@@ -36,7 +41,10 @@ export function initHeader() {
     const Textarea3 = document.createElement('div') // this is the text area (the colone red)
 
     Textarea3.classList.add(
-        'textarea3'
+        'textarea3',
+        'pos-absolute',
+        'h-700px',
+        'bd-radius-10'
     );
 
     const Textin3 = document.createElement('p'); // this is the text inside the Textarea3
@@ -44,7 +52,6 @@ export function initHeader() {
     Textin3.innerHTML = 'My Portfolio';
 
     Textin3.classList.add(
-        'text3',
         'orbitron-uniquifier'
     );
 
@@ -52,7 +59,9 @@ export function initHeader() {
     const Animationheader = document.createElement('dotlottie-player'); // this is the video animation in header
 
     Animationheader.classList.add(
-        'animationheader'
+        'animationheader',
+        'pos-absolute',
+        'h-auto'
     );
 
     Animationheader.setAttribute(
@@ -74,7 +83,8 @@ export function initHeader() {
     const hirobot = document.createElement('dotlottie-player'); // this is the robot video in header
 
     hirobot.classList.add(
-        'hirobot'
+        'hirobot',
+        'pos-absolute'
     );
 
     hirobot.setAttribute(
